@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>doctype</title>
+  </head>
+
+  <body>
+    <h1>Heading</h1>
+
+    <!--<table border="2">
+        <caption>Khaane Ka Samaan</caption>
+        <colgroup>
+            <col style="background-color: blue;"></style>
+             <col style="background-color: lawngreen;"></style>
+              <col style="background-color: rgb(33, 196, 160);"></style>
+               <col style="background-color: yellow;"></style>
+        </colgroup>
+      <thead>
+        <tr>
+            <th>Sr.No</th>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+            <td>1.</td>
+            <td>Maggie</td>
+            <td>100</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Kurkure</td>
+            <td>105</td>
+            <td>50</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+            <th colspan="3">Total Price:-</th>
+            <th>104</th>
+        </tr>
+      </tfoot>
+    </table>
+<br>
+
+<br> -->
+
+    <h1>Student Registration form</h1>
+
+    <form>
+      <fieldset>
+        <legend>Personal information</legend>
+
+        <label for="name">Name</label><br />
+        <input id="name" type="text" placeholder="Name" /><br />
+        <br />
+
+        <label for="email">Email</label><br />
+        <input id="email" type="text" placeholder="Email" /><br />
+        <br />
+
+        <label for="mobile">Mobile</label><br />
+        <input id="mobile" type="text" placeholder="Mobile" /><br />
+        <br />
+      </fieldset>
+      <br /><br />
+
+      <fieldset>
+
+        <legend>Address Details</legend>
+        <label for="addressline1">Address line 1</label>
+        <textarea id="addressline1" rows="4"></textarea>
+        <br>
+        <label for="city">City</label>
+        <select id="city">
+          <option>Bhopal</option>
+          <option>Indore</option>
+          <option>Gwalior</option>
+          <option>Ujjain</option>
+        </select>
+      <br><br>
+
+      <label for="country">Country</label>
+        <select id="country">
+          <option>India</option>
+          <option>China</option>
+          <option>Russia</option>
+          <option>Pakistan</option>
+        </select>
+
+      </fieldset>
+      <br>
+      <br>
+
+      <label for="courses">Courses:</label>
+      <select id="courses">
+      <optgroup label="Fronted">
+       <option>Html</option>
+       <option>Css</option>
+       <option>js</option>
+      </optgroup>
+
+      <optgroup label="Backend">
+       <option>Nodejs</option>
+       <option>expressjs</option>
+       <option>Mongodb</option>
+      </optgroup>
+      </select>
+     <br>
+     <br>
+
+     <button>Submit form</button>
+
+    </form>
+  </body>
+</html>
