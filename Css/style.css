@@ -12,50 +12,26 @@ html,body{
   
 }
 
+.parent{
+    background-color: crimson;
+    display: flex;
+}
 
-
-img{
-    height: 200px;
-    position: absolute;
-    animation-name: dora;
-    animation-delay: 1s;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 2;
+h4{
+    background-color: aqua;
+    padding: 10px;
+    font-size: 20px;
+    animation-name: sher;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
-img:hover{
-    animation-play-state: paused;
-}
-
-@keyframes dora {
-    0%{
-        left: 0;
-        top: 0;
-        background-color: red;
-        
+@keyframes sher {
+    from{
+        transform: translateX(0) ;
     }
-    
-    25%{
-        left: 75%;
-        top: 0;
-        background-color: green;
-    }
-
-    50%{
-        left:75%;
-        top: 50%;
-    }
-
-    75%{
-        left: 0%;
-        top: 50%;
-
-    }
-    100%{
-        left: 0%;
-        top: 0%;
+    to{
+        transform:translateX(-100%) ;
     }
 }
-
